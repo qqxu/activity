@@ -1,0 +1,75 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .wrapper {
+    width: 580px;
+    border-radius: 20px;
+    background: #ffe5e3;
+    padding: 30px;
+    position: relative;
+
+    .close-btn {
+      position: absolute;
+      top: -83px;
+      right: 0;
+      display: inline-block;
+      content: '';
+      width: 100px;
+      height: 83px;
+      background: url("./img/icon_cha@2x.png") no-repeat right/contain;
+    }
+
+    .content {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 20px;
+      height: 338px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 0 30px;
+      margin: 0 auto;
+
+      .title {
+        font-family: PingFangSC-Medium;
+        font-size: 30px;
+        text-align: center;
+        color: #b8351c;
+      }
+
+      .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .btn {
+        width: 380px;
+        height: 60px;
+        background-image: linear-gradient(-135deg, #ff814f 0%, #ff673f 100%);
+        border-radius: 40px;
+        font-family: PingFangSC-Regular;
+        font-size: 28px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+.show {
+  display: flex;
+}
