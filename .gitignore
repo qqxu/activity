@@ -24,6 +24,8 @@ target
 *.sass-cache
 *.tmp.html
 *.dump
+out
+dist
 
 # OS or Editor folders
 .DS_Store

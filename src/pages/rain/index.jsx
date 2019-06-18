@@ -1,5 +1,5 @@
 import React from 'react';
-import Modal from './components/modal/index';
+import Modal from '../../components/modal/index';
 import OpenImg from './img/open.png';
 
 import './style.scss';
